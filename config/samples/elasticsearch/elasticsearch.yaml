@@ -59,12 +59,12 @@ spec:
   #   entries:
   #   - key: value1
   #     path: newkey # project a key to a specific path (optional)
-  # http:
-  #   service:
-  #     spec:
+  http:
+  service:
+  spec:
   #       # expose this cluster Service with a LoadBalancer
-  #       type: LoadBalancer
-  #   tls:
+   type: LoadBalancer
+  tls:
   #     selfSignedCertificate:
   #       # add a list of SANs into the self-signed HTTP certificate
   #       subjectAltNames:
